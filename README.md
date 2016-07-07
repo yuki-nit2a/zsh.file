@@ -1,0 +1,2 @@
+# zsh.file
+zsh dotfile
