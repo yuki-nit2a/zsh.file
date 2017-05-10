@@ -212,8 +212,8 @@ export ZSH_PLUGINS_ALIAS_TIPS_EXPAND=1
 ###
 ##
 #
-#if ! zplug check --verbose; then
-#    zplug install
-#fi
+if ! zplug check --verbose; then
+    zplug install
+fi
 
 zplug load --verbose
