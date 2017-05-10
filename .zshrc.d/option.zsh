@@ -113,9 +113,9 @@ unsetopt caseglob
 setopt numeric_glob_sort
 
 ## compinit
-autoload -Uz compinit
 chmod 770 ~/.zcompdump
 chgrp -R Users ~/.zcompdump
+autoload -Uz compinit
 compinit -u
 
 setopt auto_list
