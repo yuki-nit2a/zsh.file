@@ -9,6 +9,7 @@ export LC_ALL='en_US.UTF-8'
 ## Environment
 export HOME=$HOME
 export PATH=$PATH:/cygdrive/c/-/root/bin/
+export PATH="$PATH:$(cygpath -pu "`reg query 'HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment' /v PATH| grep PATH | cut -c23-`")"
 
 ## Terminal
 export CLICOLOR=true

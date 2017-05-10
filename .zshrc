@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-zmodload zsh/zprof && zprof
+#zmodload zsh/zprof && zprof
 
 DOTFILE_DIR=$(dirname $(readlink "${(%):-%N}"))/
 

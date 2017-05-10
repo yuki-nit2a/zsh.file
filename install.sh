@@ -20,3 +20,5 @@ done
 cp -r "${DOTFILE_DIR}skeleton/.zsh/" "${INSTALL_TO}"
 
 git clone 'https://github.com/zplug/zplug.git' "${INSTALL_TO}.zsh/zplug"
+
+chmod -R 755 "${INSTALL_TO}.zsh/zplug"
